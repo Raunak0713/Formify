@@ -6,13 +6,7 @@
 
 ## 📖 **Features**
 
-- **Create Forms**: Easy-to-use form builder with a smooth UI.
-- **Multiple Question Types**: Add text, MCQ, and file upload questions.
-- **Restrict Responses**: Collect responses only from specific domains (e.g., company emails).
-- **Buttery Smooth Animations**: Powered by **Framer Motion** for fluid UI transitions.
-- **Realtime Responses**: Respond to forms and see answers in real-time.
-- **Form Sharing**: Generate public links for forms.
-- **Export Data**: Export responses to CSV, JSON, or more.
+
 
 ---
 
@@ -38,3 +32,9 @@
 - Configured **Next.js** project to support **TypeScript** and **Tailwind CSS**.
 - Created the initial directory structure with basic files.
 
+### **Commit 2**: UI Setup & Custom Authentication Routes 🔑
+- Integrated **ShadCN UI** for pre-built components, starting with a customizable **Button** component.
+- Set up **Clerk** authentication with custom routes: `/sign-in` and `/sign-up`.
+- Implemented **SignInButton** and **SignUpButton** components for user authentication.
+- Created a styled login/signup page with **Tailwind CSS** for a clean and responsive UI.
+- Ensured **Clerk** integration works seamlessly for user management and session handling.
